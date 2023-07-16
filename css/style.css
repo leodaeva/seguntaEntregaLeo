@@ -18,22 +18,32 @@ font-family: 'Crimson Text', serif;
     src: url(../assets/fonts/CrazyWish.otf);
 }
 
-header {
-    background-color: #E9EDC9;
-}
-
 /* header */
-header nav h1 {
-    color: rgb(108, 83, 216);
-    font-size: 18;
-    font-family: 'logo';
+header {
+    background-color: #64403E;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #CCD5AE;
 }
 
-.navbar li a {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
     text-decoration: none;
-    color: black;
-    font-size: 12;
-}
+    color: #fff;
+  }
 
 /* main */
 main {
