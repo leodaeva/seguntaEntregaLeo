@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&family=Crimson+Text&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fuentes 
+font-family: 'Caladea', serif;
+font-family: 'Crimson Text', serif;
+ */
+/* un punto adelante siempre llama la clase */
+
+@font-face {
+    font-family: 'logo';
+    src: url(../assets/fonts/CrazyWish.otf);
+}
+
+header {
+    background-color: #E9EDC9;
+}
+
+/* header */
+header nav h1 {
+    color: rgb(108, 83, 216);
+    font-size: 18;
+    font-family: 'logo';
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12;
+}
+
+/* main */
+main {
+    background-color: #FEFAE0;
+}
+
+.principal {
+    text-align: center;
+}
+
+.cuotas {
+    background-color: #FAEDCD;
+    font-size: 18;
+    /* text-align: center; */
+}
+
+/* cards */
+.cards {
+    text-align: center;
+    /* width: 50rem; */
+    /* height: 31.25rem; */
+    /* background-color: #CCD5AE; */
+}
+
+.cards p {
+    padding: 0px 130px 0px 130px;
+}
+
+footer {
+    background-color: #CCD5AE;
+}
