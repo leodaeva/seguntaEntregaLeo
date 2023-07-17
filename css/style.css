@@ -50,14 +50,16 @@ main {
     background-color: #FEFAE0;
 }
 
-.principal {
+.cuotas {
     text-align: center;
+    background-color: chocolate;
+    padding: 10px 0px;
 }
 
-.cuotas {
-    background-color: #FAEDCD;
-    font-size: 18;
-    /* text-align: center; */
+.cuotas p {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
 }
 
 /* cards */
