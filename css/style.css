@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Caladea&family=Crimson+Text&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caladea&family=Crimson+Text&display=swap");
 
 /* reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* fuentes 
@@ -14,94 +14,112 @@ font-family: 'Crimson Text', serif;
 /* un punto adelante siempre llama la clase */
 
 @font-face {
-    font-family: 'logo';
-    src: url(../assets/fonts/CrazyWish.otf);
+  font-family: "logo";
+  src: url(../assets/fonts/CrazyWish.otf);
 }
 
 /* header */
 header {
-    background-color: #64403E;
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #CCD5AE;
+  background-color: #64403e;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ccd5ae;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
-    color: #fff;
+  text-decoration: underline;
+  color: #fff;
 }
 
 /* main */
 main {
-    background-color: #C9CEBD;
+  background-color: #c9cebd;
 }
 
 .cuotas {
-    text-align: center;
-    background-color: chocolate;
-    padding: 10px 0px;
+  text-align: center;
+  background-color: chocolate;
+  padding: 10px 0px;
 }
 
 .cuotas p {
-    margin: 0;
-    font-size: 24px;
-    color: #fff;
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
 }
 
 .banner {
-    background-image: url('../assets/img/Banner.jpg');
-    background-size: cover;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+  background-image: url("../assets/img/Banner.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 /* cards */
 .cards {
-    text-align: center;
-    /* width: 50rem; */
-    /* height: 31.25rem; */
-    /* background-color: #CCD5AE; */
+  text-align: center;
+  /* width: 50rem; */
+  /* height: 31.25rem; */
+  /* background-color: #CCD5AE; */
 }
 
 .cards p {
-    padding: 0px 130px 30px 130px;
-    margin-bottom: 0px;
+  padding: 0px 130px 30px 130px;
+  margin-bottom: 0px;
 }
 
 /* Contactos */
 .mapa {
-    width: 100%;
-    height: 450px;
-    border: 0;
+  width: 100%;
+  height: 450px;
+  border: 0;
 }
 
 .formulario {
-    display: flex;
-    justify-content: centers;
+  display: flex;
+  justify-content: centers;
 }
 
 footer {
-    background-color: #CCD5AE;
+  background-color: #ccd5ae;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.9375rem 0.9375rem;
+}
+.domicilio {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.9375rem;
+  list-style: none;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.9375rem;
+  padding: 0.3125rem 0rem;
 }
