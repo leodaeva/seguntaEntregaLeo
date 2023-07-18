@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-/* fuentes 
+/* fuentes
 font-family: 'Caladea', serif;
 font-family: 'Crimson Text', serif;
  */
@@ -77,17 +77,36 @@ main {
   color: #fff;
 }
 
-/* cards */
-.cards {
+/* Tratamientos Faciales / Tratamientos Corporales / Depilación definitiva */
+.tituloPrincipal {
+  padding-top: 35px;
   text-align: center;
-  /* width: 50rem; */
-  /* height: 31.25rem; */
-  /* background-color: #CCD5AE; */
 }
 
-.cards p {
-  padding: 0px 130px 30px 130px;
-  margin-bottom: 0px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.item h3 {
+  padding-top: 15PX;
+}
+
+.item p {
+  padding-top: 15PX;
+  font-size: 16px;
 }
 
 /* Contactos */
@@ -109,6 +128,7 @@ footer {
   justify-content: space-between;
   padding: 0.9375rem 0.9375rem;
 }
+
 .domicilio {
   display: flex;
   justify-content: space-between;
@@ -124,7 +144,7 @@ footer {
   padding: 0.3125rem 0rem;
 }
 
-@media (max-width: 628px) {
+@media (max-width: 798px) {
   header {
     flex-direction: column;
   }
@@ -132,9 +152,17 @@ footer {
   nav {
     padding-top: 10px;
   }
+
+  .domicilio {
+    justify-content: center;
+  }
+
+  .redes {
+    justify-content: center;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 510px) {
   header {
     padding: 15px;
     flex-direction: column;
@@ -142,5 +170,18 @@ footer {
 
   nav ul {
     flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .domicilio {
+    /* justify-content: center; */
+    display: inline;
+  }
+
+  .redes {
+    justify-content: center;
   }
 }
